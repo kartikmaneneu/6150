@@ -85,6 +85,12 @@ li {
   height: 60px;
 }
 
+.brandLogo {
+  width: 100px;
+  height: 60px;
+  display: block;
+}
+
 .leftInfo {
   color: rgb(90, 170, 255);
   font-family: "Courier New", Courier, monospace;
@@ -92,6 +98,27 @@ li {
   margin-left: 40px;
   margin-top: 0px;
   padding-top: 22px;
+}
+
+.infoEyebrow {
+  padding: 0;
+  margin: 0;
+}
+
+.heroTitle {
+  margin: 6px 0;
+  width: 372px;
+}
+
+.heroTitleSecond {
+  margin: 12px 0;
+}
+
+.infoIntro {
+  color: aliceblue;
+  width: 362px;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .learnBtn {
@@ -118,6 +145,15 @@ li {
   margin-top: 20px;
 }
 
+.brainHeading {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.brainSubheading {
+  margin-top: 0;
+}
+
 .leftSectionDiv {
   display: flex;
   margin-bottom: 22px;
@@ -127,6 +163,7 @@ li {
   display: flex;
   justify-content: space-around;
   width: 70%;
+  margin-left: 40px;
 }
 
 .card p {
@@ -247,6 +284,14 @@ aside a {
   margin-bottom: 10px;
 }
 
+.experimentHeading {
+  margin-left: 20px;
+}
+
+.experimentSubheading {
+  margin-left: 20px;
+}
+
 .articleContent {
   display: flex;
   gap: 16px;
@@ -261,6 +306,14 @@ aside a {
 
 .articleText {
   flex: 1;
+}
+
+.featuredHeadline {
+  margin: 0 8px;
+}
+
+.featuredSummary {
+  margin: 10px;
 }
 
 .articleText h3 {
