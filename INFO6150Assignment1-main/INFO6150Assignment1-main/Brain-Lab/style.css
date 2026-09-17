@@ -1,0 +1,570 @@
+body{
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(10, 18, 35);
+}
+
+.iconSide {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    width: 350px;
+    margin-left: 24px;
+}
+
+.mainText {
+    color: aliceblue;
+}
+
+.header .navbar {
+    margin-right: 150px;
+}
+
+
+.infoSection {
+    width: 100%;
+    height: 270px;
+    background-color: rgb(15, 25, 45);
+    background-image: url('./images/infoImage.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.navbar ul {
+    display: flex;
+    margin-right: 18px;
+    align-items: center;
+    height: 50px;
+    margin-top: 4px;
+}
+
+li {
+    margin-left: 20px;
+    list-style-type: none;
+    color: aliceblue;
+}
+
+
+#icon {
+    width: 100px;
+    height: 60px;
+}
+
+
+.leftInfo {
+    color: rgb(90, 170, 255);
+    font-family: 'Courier New', Courier, monospace;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 0px;
+    padding-top: 22px;
+}
+
+.learnBtn {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(90, 170, 255);
+    color: aliceblue;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+
+.card{
+    width: 200px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 12px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.leftAside {
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.leftSectionDiv{
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.cardsSection {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.card p {
+    margin-top: 4px;
+    margin-left: 12px;
+    margin-bottom: 0px;
+    font-family: arial;
+}
+
+.card {
+    margin-right: 30px;
+}
+
+.card h5 {
+    margin-left: 12px;
+    margin-top: 2px;
+    font-family: arial;
+    margin-bottom: 4px;
+}
+
+.card a {
+    margin-left: 12px;
+    color: rgb(73, 135, 202);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.asideSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside{
+    width: 400px;
+    height: 266px;
+    background-color: rgb(15, 25, 45);
+    margin-top: 30px;
+    margin-right: 40px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+aside .spanDiv{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 18px;
+    color: rgb(90, 170, 255);
+}
+
+aside p{
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 28px;
+}
+
+hr {
+    width: 90%;
+    border-top: 2px solid rgb(90, 170, 255);
+}
+
+aside a {
+    margin-left: 20px;
+    color: rgb(73, 135, 202);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ============================= */
+/* Main Content */
+/* ============================= */
+
+.contentSection {
+    width: 100%;
+    background-color: rgb(245, 248, 252);
+    font-family: Arial, sans-serif;
+}
+
+
+/* ============================= */
+/* Top Content */
+/* ============================= */
+
+.topContent {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+.featuredArticle{
+    width: 664px;
+    margin-left: 40px;
+    border-radius: 6px;
+    border: 1px solid rgb(194, 194, 194);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 30px;
+    height: 222px;
+}
+
+.featuredArticle h2{
+    margin-left: 24px;
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+
+.featuredArticle img{
+    width: 230px; 
+    margin-left: 24px;
+    border-radius: 6px;
+}
+
+.featuredArticle a {
+    margin-left: 10px;
+    color: #4d4db5;
+    font-weight: 600;
+}
+
+.experiment h2,
+.sleepSection h2,
+.videoSection h2,
+.joinSection h2,
+.exploreSection h2,
+.linksSection h2 {
+    color: rgb(20, 38, 65);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.articleContent {
+    display: flex;
+    gap: 16px;
+}
+
+.articleContent img {
+    width: 215px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.articleText {
+    flex: 1;
+}
+
+.articleText h3 {
+    margin: 0 0 6px 0;
+    font-size: 20px;
+    color: rgb(20, 38, 65);
+}
+
+.articleText p {
+    margin: 0 0 8px 0;
+    color: rgb(55, 75, 100);
+    line-height: 1.35;
+    font-size: 14px;
+}
+
+.articleText a {
+    color: rgb(40, 105, 220);
+    font-weight: bold;
+}
+
+.tags {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.tags span {
+    display: inline-block;
+    background-color: rgb(235, 242, 250);
+    color: rgb(70, 90, 120);
+    margin-right: 5px;
+    border-radius: 4px;
+    font-size: 11px;
+    padding: 8px;
+}
+
+
+/* Quick Experiment */
+
+.experiment {
+    flex: 1;
+    background-color: white;
+    border-radius: 7px;
+    height: 222px;
+    box-shadow: 0 2px 8px rgb(220, 225, 235);
+}
+
+.experimentContent {
+    border-top: 1px solid rgb(225, 230, 240);
+    padding-top: 12px;
+}
+
+.experiment h3 {
+    color: rgb(20, 38, 65);
+    margin: 0 0 6px 0;
+}
+
+.experiment p {
+    color: rgb(55, 75, 100);
+    line-height: 1.4;
+}
+
+.experiment audio {
+    width: 92%;
+    margin-left: 18px;
+}
+
+
+/* ============================= */
+/* Middle Content */
+/* ============================= */
+
+.middleContent {
+    display: flex;
+    gap: 22px;
+    margin-top: 20px;
+}
+
+.sleepSection {
+    width: 50%;
+    margin-left: 38px;
+}
+
+.videoSection {
+    flex: 1;
+    margin-right: 38px;
+}
+
+.sleepSection h2,
+.videoSection h2 {
+    margin-bottom: 10px;
+}
+
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 7px rgb(220, 225, 235);
+}
+
+th {
+    text-align: left;
+    background-color: rgb(220, 233, 248);
+    color: rgb(25, 45, 75);
+    padding: 9px;
+    font-size: 13px;
+}
+
+td {
+    padding: 9px;
+    border-top: 1px solid rgb(225, 230, 240);
+    color: rgb(45, 65, 90);
+    font-size: 13px;
+}
+
+.videoSection video {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5px;
+    background-color: black;
+}
+
+
+/* ============================= */
+/* Bottom Content */
+/* ============================= */
+
+.bottomContent {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+
+/* Join Form */
+
+.joinSection {
+    flex: 1.4;
+    background-color: rgb(225, 239, 255);
+    border-radius: 7px;
+    padding: 14px 18px;
+    margin-left: 36px;
+}
+
+.joinSection h2 {
+    margin-bottom: 2px;
+}
+
+.joinSubtitle {
+    margin-top: 0;
+    color: rgb(70, 100, 140);
+    font-size: 13px;
+}
+
+.formRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.formRow label {
+    width: 120px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(25, 45, 75);
+}
+
+.formRow input {
+    flex: 1;
+    height: 30px;
+    border: 1px solid rgb(210, 220, 235);
+    border-radius: 4px;
+    padding: 6px 9px;
+    font-size: 12px;
+}
+
+.joinBtn {
+    margin-left: 120px;
+    margin-top: 10px;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(75, 65, 240);
+    color: white;
+    cursor: pointer;
+}
+
+
+/* ============================= */
+/* More to Explore */
+/* ============================= */
+
+.rightBottom {
+    flex: 1;
+    margin-right: 38px;
+}
+
+.exploreSection,
+.linksSection {
+    background-color: white;
+    border-radius: 7px;
+    padding: 14px;
+    box-shadow: 0 2px 7px rgb(220, 225, 235);
+}
+
+.exploreSection details {
+    background-color: rgb(240, 245, 252);
+    padding: 10px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.exploreSection summary {
+    color: rgb(25, 45, 75);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.exploreSection details p {
+    color: rgb(60, 80, 110);
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+
+/* ============================= */
+/* Useful Links */
+/* ============================= */
+
+.linksSection {
+    margin-top: 10px;
+}
+
+.linksSection ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.linksSection li {
+    margin-bottom: 7px;
+    color: rgb(25, 45, 75);
+}
+
+.linksSection a {
+    color: rgb(30, 100, 220);
+    font-size: 13px;
+}
+
+
+/* ============================= */
+/* Footer */
+/* ============================= */
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-left: -28px;
+    margin-top: 16px;
+
+    padding: 16px 35px;
+
+    background-color: rgb(10, 25, 40);
+    color: white;
+}
+
+.footerBrand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.footerBrand img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.footerBrand h3 {
+    margin: 0;
+    color: rgb(110, 180, 255);
+    font-size: 15px;
+}
+
+.footerBrand p {
+    margin: 3px 0 0 0;
+    font-size: 11px;
+    color: rgb(190, 205, 220);
+}
+
+.footerContact {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footerContact strong {
+    font-size: 12px;
+}
+
+.footerContact small {
+    color: rgb(170, 190, 210);
+}
+
+.socialLinks {
+    display: flex;
+    gap: 14px;
+    font-size: 18px;
+}
+
+.copyright {
+    font-size: 10px;
+    color: rgb(170, 190, 210);
+}
