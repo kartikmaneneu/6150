@@ -26,6 +26,11 @@ body {
   margin-right: 150px;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
 .navbar li {
   position: relative;
   margin-left: 20px;
