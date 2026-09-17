@@ -532,6 +532,11 @@ footer {
   gap: 4px;
 }
 
+.footerContact a {
+  text-decoration: none;
+  color: rgb(110, 180, 255);
+}
+
 .footerContact strong {
   font-size: 12px;
 }
